@@ -9,8 +9,6 @@ const apiKey = process.env.REACT_APP_API_KEY;
 
 const App = () => {
 
-  console.log('API Key:', apiKey);
-
   const [userInput, setUserInput] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
